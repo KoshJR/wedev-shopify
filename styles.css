@@ -1,0 +1,97 @@
+:root {
+  --accent-color: #49ad09;
+  --accent-second: #3d9107;
+  --color: #313131;
+  --background: #ffffff;
+  --background-second: #f2f2f2;
+  --secondary-color: #a1a89d;
+
+  --font-family: "Inter", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--background);
+  color: var(--color);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+}
