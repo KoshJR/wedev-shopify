@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="./styles.css" />
     <title>Web.Dev</title>
   </head>
   <body>
     <header class="header">
+      <div class="container">
         <nav class="header-nav">
           <a href="/" class="header-logo">Web.Dev</a>
         <ul class="header-menu">
@@ -38,23 +39,31 @@
         </ul>
         <button class="header-button">Sign Up</button>
       </nav>
+      </div>
     </header>
     <main>
-      <section >
-        <div>Images</div>
+      <section class="hero">
         <div>
-          <h1>We Develop <span>Shopify</span> sites</h1>
-          <p>
+        <div class="hero-first-img">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+        <div>
+          <h1 class="hero-title">We Develop <span class="title-green">Shopify</span> sites</h1>
+          <p class="hero-text">
             Launch your high-converting Shopify store with stunning design,
             blazing speed, and a seamless user journey. Whether you're scaling
             or starting out — we've got you covered.
           </p>
-          <button>Contact Us</button>
-          <a href="">Watch Video</a>
+          <button class="hero-btn">Contact Us</button>
+          <a href="" class="hero-link">Watch Video</a>
         </div>
-        <div>Images</div>
+        <div class="hero-second-img">Images</div>
+        </div>
       </section>
-      <section class="container">
+      <section>
+        <div class="container">
         <ul>
           <li>CHASE</li>
           <li>asana</li>
@@ -62,8 +71,10 @@
           <li>BuzzFeed</li>
           <li>Walmart</li>
         </ul>
+        </div>
       </section>
-      <section class="container">
+      <section >
+        <div class="container">
         <h2>What we Do?</h2>
         <ul>
           <li>
@@ -108,8 +119,10 @@
           </li>
         </ul>
         <button>Learn More</button>
+        </div>
       </section>
-      <section class="container">
+      <section>
+        <div class="container">
         <h2>Our Work</h2>
         <ul>
           <li>
@@ -134,8 +147,10 @@
           </li>
         </ul>
         <button>All Projects</button>
+        </div>
       </section>
-      <section class="container">
+      <section >
+        <div class="container">
         <h2>What Customers Say</h2>
         <ul>
           <li>
@@ -163,8 +178,10 @@
             <p>Sabo Mastitle</p>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="container">
+      <section >
+        <div class="container">
         <h2>Pricing</h2>
         <ul>
           <li>
@@ -202,14 +219,18 @@
             <button>Request Demo</button>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="container">
+      <section >
+        <div class="container">
         <h2>Call to Action</h2>
         <p>Need a little more home to grow?</p>
-<button>Contact Us</button>
+        <button>Contact Us</button>
+        </div>
       </section>
     </main>
     <footer>
+      <div class="container">
         <div>
             <a href="/">Web.Dev</a>
             <p>You'll find your next home loan valu you prefer.</p>
@@ -244,9 +265,10 @@
 
             </button>
         </input>
-        </div>
+        
         <div>
             <p>Copyright 2021 ©Web.Dev  All rights reserved.</p>
+        </div>
         </div>
     </footer>
   </body>
