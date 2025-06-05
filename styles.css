@@ -40,10 +40,10 @@ ul {
 a {
   text-decoration: none;
   background-color: transparent;
+}
 
-  &:hover {
-    text-decoration: none;
-  }
+a:hover {
+  text-decoration: none;
 }
 
 img {
@@ -59,10 +59,10 @@ button {
   overflow: visible;
   background: transparent;
   cursor: pointer;
+}
 
-  &:focus {
-    outline: none;
-  }
+button:focus {
+  outline: none;
 }
 
 input,
@@ -100,20 +100,40 @@ body {
   margin: 0 auto;
 }
 
+.container-header {
+  display: flex;
+  gap: 28px;
+}
+
 .header {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--background-second);
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 .header-logo {
 }
 .header-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 .header-menu-item {
 }
 .header-menu-link {
 }
 .header-button {
+  background-color: var(--accent-color);
+  color: var(--background);
+  padding: 18px 45px;
+  border-radius: 5px;
 }
 .hero {
 }
