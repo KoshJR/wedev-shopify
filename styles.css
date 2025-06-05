@@ -101,35 +101,151 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
 }
 
 .header-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
 .header-logo {
-  margin-right: 389px;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
 }
-
 .header-menu {
-  display: flex;
-  gap: 50px;
-  margin-right: 28px;
 }
-
+.header-menu-item {
+}
+.header-menu-link {
+}
 .header-button {
-  width: 152px;
-  height: 58px;
-  border-radius: 5px;
-  background-color: var(--accent-color);
-  color: var(--background);
+}
+.hero {
+}
+.hero-first-img {
+}
+.hero-title {
+}
+.title-green {
+}
+.hero-text {
+}
+.hero-btn {
+}
+.hero-link {
+}
+.hero-second-img {
+}
+.partners {
+}
+.partners-list {
+}
+.partners-list-item {
+}
+.specialization {
+}
+.specialization-title {
+}
+.specialization-list {
+}
+.specialization-list-item {
+}
+.specialization-logo {
+}
+.specialization-item-title {
+}
+.specialization-item-text {
+}
+.specialization-link {
+}
+.specialization-btn {
+}
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-img {
+}
+.portfolio-item-title {
+}
+.portfolio-item-link {
+}
+.portfolio-btn {
+}
+.feedback {
+}
+.feedback-title {
+}
+.feedback-list {
+}
+.feedback-list-item {
+}
+.feedback-item-title {
+}
+.feedback-text {
+}
+.feedback-author {
+}
+.pricing {
+}
+.pricing-title {
+}
+.pricing-title-item {
+}
+.pricing-item-title {
+}
+.price {
+}
+.service-item {
+}
+.service-btn {
+}
+.service-list {
+}
+.cta {
+}
+.cta-title {
+}
+.cta-text {
+}
+.cta-btn {
+}
+.footer {
+}
+.socials {
+}
+.socials-link {
+}
+.socials-text {
+}
+.socials-list {
+}
+.socials-item {
+}
+.resources {
+}
+.resources-title {
+}
+.resources-list {
+}
+.resources-item {
+}
+.company {
+}
+.company-title {
+}
+.company-list {
+}
+.company-item {
+}
+.input {
+}
+.input-title {
+}
+.input-field {
+}
+.input-btn {
+}
+.copyright {
+}
+.copyright-text {
 }
