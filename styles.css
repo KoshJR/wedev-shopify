@@ -42,8 +42,10 @@ a {
   background-color: transparent;
 }
 
-a:hover {
+a:hover,
+a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
@@ -136,22 +138,41 @@ body {
   border-radius: 5px;
 }
 .hero {
+  display: flex;
 }
+
 .hero-first-img {
+  width: 328px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
 }
 .hero-title {
+  max-width: 822px;
+  font-size: 78px;
+  line-height: 1.1em;
 }
 .title-green {
 }
 .hero-text {
+  max-width: 492px;
+  margin-top: 36px;
+}
+.hero-buttons {
+  margin-top: 63px;
+  display: flex;
 }
 .hero-btn {
 }
 .hero-link {
 }
 .hero-second-img {
+  width: 328px;
 }
 .partners {
+  margin-top: 76px;
 }
 .partners-list {
 }
